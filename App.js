@@ -6,7 +6,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Card />
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>Foto de gatinho</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -18,5 +18,18 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+    top: 30,
+    backgroundColor:'pink',
   },
+  content: {
+    justifyContent: "center",
+    
+  },
+  gatinhos: {
+
+    width: 40,
+    height: 60,
+
+  },
+
 });

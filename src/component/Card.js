@@ -1,12 +1,12 @@
 import { Component } from "react"
-import { View, Image } from 'react-native'
+import { View, Image, StyleSheet } from 'react-native'
 
 export default class Card extends Component {
     render() {
         return (
             <View>
                 <View>
-                    <Image source={require('../img/gatinhooo.jpg')} />
+                    <Image style={{width: 40, height: 40}} source={require('../img/gatinhooo.jpg')} />
                 </View>
             </View>
         )
